@@ -20,8 +20,6 @@ public class Main {
         ParseTree tree = parser.program();
         TableSymbols eval = new TableSymbols();
         eval.visit(tree);
-        System.out.println("Table of Symbols");
-        //eval.printMemory();
         System.out.println("Printing List Adjacency");
         eval.PrintLA();
     }

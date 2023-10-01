@@ -37,7 +37,7 @@ public class TableSymbols extends GraphvizExprBaseVisitor<Integer> {
                 }
             }
         }
-        return 0;
+        return super.visitEdgeOp(ctx);
     }
 
     public void PrintLA(){
