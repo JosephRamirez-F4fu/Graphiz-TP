@@ -22,5 +22,7 @@ public class Main {
         eval.visit(tree);
         System.out.println("Printing List Adjacency");
         eval.PrintLA();
+        System.out.println("Printing TS");
+        eval.printTS();
     }
 }
